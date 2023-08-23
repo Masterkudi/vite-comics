@@ -20,10 +20,11 @@ export default {
         display: flex;
         position: relative;
         justify-content: flex-end;
-    }
+        max-height: 500px;
 
     footer img {
-        width: 25rem;
+        overflow: hidden;
+    }
     }
 </style>
   
