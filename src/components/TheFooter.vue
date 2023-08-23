@@ -8,8 +8,53 @@ export default {
 <template>
     <footer>
         <div class="menu-bar">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque porro ea dolores nemo optio magnam rerum
-            consequatur iusto illo quisquam tempora, assumenda ad libero nulla, odio officiis ducimus eveniet. Quaerat.
+            <div class="menu-column">
+                <div class="d-flex">
+                    <div>
+                        <h4>DC COMICS</h4>
+                        <ul>
+                            <li>Characters</li>
+                            <li>Comics</li>
+                            <li>Movies</li>
+                            <li>TV</li>
+                            <li>Games</li>
+                            <li>Videos</li>
+                            <li>News</li>
+                        </ul>
+                        <h4>SHOP</h4>
+                        <ul>
+                            <li>Shop DC</li>
+                            <li>Shop DC Collectibles</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h4>DC</h4>
+                        <ul>
+                            <li>Terms Of Use</li>
+                            <li>Privacy policy (New)</li>
+                            <li>Ad Choices</li>
+                            <li>Advertising</li>
+                            <li>Jobs</li>
+                            <li>Subscriptions</li>
+                            <li>Talent Workshops</li>
+                            <li>CPSC Certificates</li>
+                            <li>Ratings</li>
+                            <li>Shop Help</li>
+                            <li>Contact Us</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h4>SITES</h4>
+                        <ul>
+                            <li>DC</li>
+                            <li>MAD Magazine</li>
+                            <li>DC Kids</li>
+                            <li>DC Universe</li>
+                            <li>DC Power Visa</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
             <img src="../assets/img/dc-logo-bg.png" alt="">
         </div>
 
@@ -34,13 +79,15 @@ export default {
     background-image: url(../assets/img/footer-bg.jpg);
     color: #fff;
     display: flex;
+    justify-content: space-around;
     position: relative;
-    justify-content: flex-end;
     max-height: 500px;
 }
 
 .menu-bar img {
+    display: flex;
     overflow: hidden;
+    justify-content: flex-end;
 }
 
 .social-bar {
@@ -76,6 +123,24 @@ export default {
 }
 .social-icons img {
     padding: .5rem;
+}
+
+.menu-column {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+.menu-column div {
+    padding: 2rem;
+}
+.menu-column li {
+    text-align: start;
+    list-style: none;
+    color: #959595;
+}
+.menu-column ul {
+    padding-left: 0;
 }
 
 </style>
