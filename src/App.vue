@@ -14,7 +14,12 @@ export default {
   <TheHeader></TheHeader>
 
   <main>
-    <h1> Content goes here </h1>
+
+    <img class="jumbotron" src="./assets/img/jumbotron.jpg" alt="">
+
+    <div class="gallery">
+      <h1> Content goes here </h1>
+    </div>
     
       <ul class="banner nav flex-row">
         <li class="nav-item"><a href="#" class="nav-link"><img src="./assets/img/buy-comics-digital-comics.png" alt="">
@@ -36,12 +41,17 @@ export default {
 
 <style scoped>
 
-main {
+.jumbotron {
+  width: 100%;
+  height: 50%;
+}
+
+.gallery {
   background-color: #1C1C1C;
   color: white;
 }
 
-main h1 {
+.gallery h1 {
   margin-bottom: 0;
   display: flex;
   justify-content: flex-start;
