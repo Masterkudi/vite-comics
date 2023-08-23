@@ -15,7 +15,9 @@ export default {
 
   <main>
 
-    <img class="jumbotron" src="./assets/img/jumbotron.jpg" alt="">
+    <div class="jumbo-container">
+      <img class="jumbotron" src="./assets/img/jumbotron.jpg" alt="">
+    </div>
 
     <div class="gallery">
       <h1> Content goes here </h1>
@@ -41,10 +43,21 @@ export default {
 
 <style scoped>
 
-.jumbotron {
-  width: 100%;
-  height: 50%;
+.jumbo-container {
+  height: 400px;
+  overflow: hidden;
 }
+.jumbotron {
+  height: 220%;
+  width: 100%;
+}
+
+.banner.nav {
+  padding-left: 7rem;
+  padding-right: 7rem;
+
+}
+
 
 .gallery {
   background-color: #1C1C1C;

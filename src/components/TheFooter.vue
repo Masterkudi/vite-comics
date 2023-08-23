@@ -79,15 +79,16 @@ export default {
     background-image: url(../assets/img/footer-bg.jpg);
     color: #fff;
     display: flex;
+    overflow: hidden;
     justify-content: space-around;
     position: relative;
-    max-height: 500px;
+    max-height: 400px;
 }
 
 .menu-bar img {
-    display: flex;
-    overflow: hidden;
-    justify-content: flex-end;
+    height: 620px;
+    align-self: center;
+
 }
 
 .social-bar {
