@@ -88,7 +88,6 @@ export default {
 .menu-bar img {
     height: 620px;
     align-self: center;
-
 }
 
 .social-bar {
