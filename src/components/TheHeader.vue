@@ -42,7 +42,7 @@ header .nav-link {
     color: #000;
     padding: 40px 0;
 }
-header.nav-link:active::after {
+header :hover {
     color: #0086FF;
 }
 

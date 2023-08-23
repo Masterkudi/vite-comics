@@ -18,12 +18,12 @@ export default {
         background-image: url(../assets/img/footer-bg.jpg);
         color: #fff;
         display: flex;
+        position: relative;
         justify-content: flex-end;
     }
 
     footer img {
-        position: relative;
-        width: 20rem;
+        width: 25rem;
     }
 </style>
   

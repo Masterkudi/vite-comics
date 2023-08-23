@@ -14,32 +14,27 @@ export default {
   <TheHeader></TheHeader>
 
   <main>
-    <h1>Content goes here</h1>
-    <template>
-      <ul class="nav flex-row">
-        <li class="nav-item"><a href="#" class="nav-link"><img src="../assets/img/buy-comics-digital-comics.png" alt="">
+    <h1> Content goes here </h1>
+    
+      <ul class="banner nav flex-row">
+        <li class="nav-item"><a href="#" class="nav-link"><img src="./assets/img/buy-comics-digital-comics.png" alt="">
             DIGITAL COMICS</a></li>
-        <li class="nav-item"><a href="#" class="nav-link"><img src="../assets/img/buy-comics-merchandise.png" alt="">DC
+        <li class="nav-item"><a href="#" class="nav-link"><img src="./assets/img/buy-comics-merchandise.png" alt="">DC
             MERCHANDISE</a></li>
-        <li class="nav-item"><a href="#" class="nav-link"><img src="../assets/img/buy-comics-subscriptions.png"
+        <li class="nav-item"><a href="#" class="nav-link"><img src="./assets/img/buy-comics-subscriptions.png"
               alt="">SUBSCRIPTION</a></li>
-        <li class="nav-item"><a href="#" class="nav-link"><img src="../assets/img/buy-comics-shop-locator.png"
+        <li class="nav-item"><a href="#" class="nav-link"><img src="./assets/img/buy-comics-shop-locator.png"
               alt="">COMIC SHOP LOCATION</a></li>
-        <li class="nav-item"><a href="#" class="nav-link"><img src="../assets/img/buy-dc-power-visa.svg" alt="">DC POWER
+        <li class="nav-item"><a href="#" class="nav-link"><img src="./assets/img/buy-dc-power-visa.svg" alt="">DC POWER
             VISA</a></li>
       </ul>
-    </template>
+    
   </main>
 
   <TheFooter> </TheFooter>
 </template>
 
 <style scoped>
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
 
 main {
   background-color: #1C1C1C;
@@ -54,7 +49,7 @@ main h1 {
   font-size: 1.5rem;
 }
 
-template {
+.banner {
   background-color: #0082F9;
   display: flex;
   justify-content: space-between;
@@ -63,13 +58,13 @@ template {
   font-size: .5rem;
 }
 
-template .nav-link {
+.banner .nav-link {
   color: #ffffff;
   padding: 2rem;
 
 }
 
-template img {
+.banner img {
   height: 2rem;
   margin: 1rem;
 }
