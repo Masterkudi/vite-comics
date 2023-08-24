@@ -31,13 +31,15 @@ export default {
           <div class="col" v-for="(character, i) in charactersList" :key="`character_${i}`">
             <div class="card border-0 rounded-0 h-100 bg-transparent text-white">
               <img :src="character.thumb" alt="" />
-              <div class="card-body p-0 pb-3 pt-3">
+              <div class="card-body p-0 pb-5 pt-2">
                 {{ character.series }}
               </div>
             </div>
           </div>
         </div>
       </div>
+
+      <div class="btn btn-primary d-flex text-white text-center rounded-0">LOAD MORE</div>
 
     </div>
 
@@ -59,7 +61,7 @@ export default {
   <TheFooter> </TheFooter>
 </template>
 
-<style scoped>
+<style>
 .jumbo-container {
   height: 400px;
   overflow: hidden;
@@ -73,7 +75,6 @@ export default {
 .banner.nav {
   padding-left: 6rem;
   padding-right: 6rem;
-
 }
 
 .gallery {
@@ -84,6 +85,10 @@ export default {
 .gallery img {
   aspect-ratio: 1/1;
   width: 13rem;
+}
+
+.gallery .btn {
+  align-self: center;
 }
 
 .banner {
