@@ -27,12 +27,12 @@ export default {
 
     <div class="gallery">
       <div class="gallery">
-        <div class="row row-cols-6 g-3">
-          <div class="col" v-for="(characters, i) in charactersList" :key="`characters_${i}`">
-            <div class="card border-0 rounded-0 h-100">
-              <img :src="characters.src" alt="" />
-              <div class="card-body">
-                {{ characters.thumb }}
+        <div class="row row-cols-6">
+          <div class="col" v-for="(character, i) in charactersList" :key="`character_${i}`">
+            <div class="card border-0 rounded-0 h-100 bg-transparent text-white">
+              <img :src="character.thumb" alt="" />
+              <div class="card-body p-0 pb-3 pt-3">
+                {{ character.series }}
               </div>
             </div>
           </div>
@@ -79,15 +79,11 @@ export default {
 .gallery {
   background-color: #1C1C1C;
   color: white;
-  padding: 2rem 10rem;
+  padding: 2rem 5rem;
 }
-
-.gallery h1 {
-  margin-bottom: 0;
-  display: flex;
-  justify-content: center;
-  padding: 3rem;
-  font-size: 1.5rem;
+.gallery img {
+  aspect-ratio: 1/1;
+  width: 13rem;
 }
 
 .banner {
