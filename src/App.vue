@@ -82,6 +82,7 @@ export default {
   color: white;
   padding: 2rem 5rem;
 }
+
 .gallery img {
   aspect-ratio: 1/1;
   width: 13rem;
