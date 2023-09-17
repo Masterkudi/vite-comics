@@ -82,11 +82,9 @@ export default {
     overflow: hidden;
     justify-content: space-around;
     position: relative;
-    max-height: 400px;
 }
 
 .menu-bar img {
-    height: 620px;
     align-self: center;
 }
 
